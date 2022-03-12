@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - the variable output >, <, or = 0
- * description: assigns a randon number to the variable n
- * returns: 0
+ * main - the variable output > 0
+ * description: assigns random numbers to the variable, n
+ * Return: 0
  */
 
 int main(void)
