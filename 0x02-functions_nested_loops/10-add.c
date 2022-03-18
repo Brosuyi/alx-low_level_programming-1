@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * add - add the values of a and b
 * @a: an integer

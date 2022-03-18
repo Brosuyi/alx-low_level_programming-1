@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * print_alphabet - print lowercase alphabet with c incrementing by 1
 * Return: lowercase alphabet a-z
