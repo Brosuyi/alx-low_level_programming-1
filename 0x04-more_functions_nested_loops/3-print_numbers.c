@@ -11,7 +11,7 @@ void print_numbers(void)
 	int i;
 	for (i = 0, i < 10, i++);
 	{
-		print("%d\n", i);
+		printf("%d", i);
 	}
-	return (0);
+	_putchar('\n');
 }
