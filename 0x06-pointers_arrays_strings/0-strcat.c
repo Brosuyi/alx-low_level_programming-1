@@ -6,13 +6,12 @@
  *
  * Return: length of the string
  */
+
 int _strlen(char *s)
 {
-	int length;
+	int length = 0;
 
-length = 0;
-
-	for (length = 0; *s != '\0'; s++)
+	for (; *s != '\0'; s++)
 	{
 		length++;
 	}
@@ -25,16 +24,17 @@ length = 0;
  * @dest: the second string
  * Return: dest string
  */
+
 char *_strcat(char *dest, char *src)
 {
-	int len = _strlen(dest);
+	int length = _strlen(dest);
 	int i;
 
-	for (i = 0; src[i] != '\0'; i++)
+	for (i = 0; *(src + i) != '\0'; i++)
 	{
-		dest[len + i] = src[i];
+		*(dest + length + i) = *(src + i);
 	}
-	dest[len + i] = '\0';
+	*(dest + length + i) = '\0';
 
 	return (dest);
 }
