@@ -19,7 +19,7 @@ int _strlen(char *s)
 }
 
 /**
- * _strncpy - copys a string to another string upto the nth element
+ * _strncpy - copies a string to another string upto the nth element
  * @src: the first string
  * @dest: the second string
  * @n: number of bytes to get from src
