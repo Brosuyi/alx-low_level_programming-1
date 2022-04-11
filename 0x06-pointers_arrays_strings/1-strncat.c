@@ -19,9 +19,10 @@ int _strlen(char *s)
 }
 
 /**
- * _strcat - concatenates two strings
+ * _strncat - concatenates two strings
  * @src: the first string
  * @dest: the second string
+ * @n: number of bytes to get from src
  * Return: dest string
  */
 
