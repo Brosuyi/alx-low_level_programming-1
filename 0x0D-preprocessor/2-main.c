@@ -1,15 +1,13 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
+ * main - prints the name of the file it was compiled from
  *
+ * Return: Always (0)
  */
-
-void main(void)
+int main(void)
 {
-	char *s = __FILE__;
-	
-	for (; *s != '\0'; s++)
-	{
-		_putchar(*s);
-	}
+	printf("%s\n", __FILE__);
+
+	return (0);
 }
